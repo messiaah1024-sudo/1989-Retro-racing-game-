@@ -3,7 +3,7 @@ import { AnimatePresence, MotionConfig, motion } from 'framer-motion';
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ArrowUpRight, CarFront, Check, ChevronDown, ChevronRight, CircleHelp, Flag, Gauge, Info, MapPin, Music, SlidersHorizontal, Trophy, Volume2, VolumeX, Zap } from 'lucide-react';
 import { CarPreview } from './components/CarPreview';
 import { Modal } from './components/Modal';
-import { RaceGame, type RaceGameHandle } from './components/RaceGame';
+import { RaceGame3D as RaceGame, type RaceGameHandle } from './components/RaceGame3D';
 import { CARS, DEFAULT_SETTINGS, DIFFICULTIES, TRACKS, formatTime, type Difficulty, type GamePhase, type RaceResult, type Settings } from './game/data';
 import { RelaxMusic } from './game/audio';
 
